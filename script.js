@@ -16,9 +16,11 @@ suma = valor1 + valor2;
 multiplicacion = valor1 * valor2;
 division = valor1 / valor2;
 modulo = valor1 % valor2;
+iguales = valor1 == valor2;
 
 alert( 'La suma es: '+ suma +'\n' +
        'La multiplicacion es: '+ multiplicacion +'\n' +
        'La division es: '+ division +'\n' +
-       'La modulo es: '+ modulo +'\n'
+       'La modulo es: '+ modulo +'\n' +
+       '¿Iguales?: '+ iguales +'\n'
 );
